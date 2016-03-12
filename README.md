@@ -1,4 +1,5 @@
 # mattdark.com
 A portfolio webpage
 
-You'll see this page and want to hire me!
+I have built this site using a bootstrap template from http://startbootstrap.com.
+
