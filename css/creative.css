@@ -30,11 +30,13 @@ a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    outline: none;
 }
 
 a:hover,
 a:focus {
     color: #eb3812;
+    outline: none;
 }
 
 h1,
@@ -57,12 +59,16 @@ p {
 }
 
 .bg-dark {
-    color: rgba(242,241,237,1);
+    color: rgba(255,255,255,1);
     background-color: rgba( 68,68,68,1);
 }
 
 .text-faded {
     color: rgba(255,255,255,.7);
+}
+
+.text-dark {
+    color: rgba(68,68,68,1);
 }
 
 section {
@@ -115,6 +121,7 @@ aside {
 .navbar-default .nav>li.active>a:focus {
     color: rgba(255, 174, 43 ,1)!important;
     background-color: transparent;
+    outline: none;
 }
 
 .navbar-default .nav > li.active>a:hover,
@@ -205,13 +212,15 @@ header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-header .header-content .header-content-inner p {
+header .header-content .header-content-inner {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
-
+p {
+    color: white;
+}
 @media(min-width:768px) {
     header {
         min-height: 100%;
