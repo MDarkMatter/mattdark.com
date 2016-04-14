@@ -251,6 +251,7 @@ p {
 
 .section-heading {
     margin-top: 0;
+    text-align: center;
 }
 
 .service-box {
@@ -487,6 +488,19 @@ body {
 
 .profile_pic {
     width: 250px;
-    border-radius: 70px;
+    border-radius: 50%;
     margin-bottom: 25px;
+    float: left;
+    margin-right: 43px;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+.text-about p {
+    text-align: left;
+    line-height: 1.8em;
+}
+
+.text-center p {
+    text-align: center;
 }
